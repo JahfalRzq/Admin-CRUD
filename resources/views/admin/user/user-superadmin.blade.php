@@ -35,7 +35,7 @@
 </head>
 
 <body class="bg-[#E1EEFB]">
-    <div class="flex">
+        <!-- <div class="flex">
         <livewire:components.admin.sidebar-admin>
             <main class="flex-1 ml-52 divide-x-8 divide-black divide-dotted">
                 <div class="grid grid-cols-12">
@@ -217,7 +217,8 @@
                     </div>
                 </div>
             </main>
-    </div>
+    </div> -->
+
 
 
     <!-- Create New User Modal -->
@@ -287,7 +288,7 @@
                                             <li class="hover:bg-gray-200 py-2">
                                                 <a href="#" class="block p-1 mx-7" id="userRole"
                                                     name="role" value="User">
-                                                    <option value="{{ $role->id }}">{{ $role->role_name }} 
+                                                    <option value="{{ $role->id }}">{{ $role->role_name }}
                                                     </option>
                                                 </a>
                                             </li>
